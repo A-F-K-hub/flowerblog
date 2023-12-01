@@ -1,0 +1,49 @@
+/*Navbar*/
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 0.5em 0%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 1000;
+	box-shadow: 0 0.5em 1rem rgba(0, 0, 0, 0.1);
+	.logo {
+		font-size: 2rem;
+		color: $color_1;
+		font-weight: bolder;
+		span {
+			color: $color_2;
+		}
+	}
+	.navbar {
+		a {
+			font-size: 1rem;
+			padding: 0.5rem 3rem;
+			color: $color_3;
+			&:hover {
+				font-size: 1.5rem;
+				color: $color_2;
+				margin-left: 0.5rem;
+			}
+		}
+	}
+	.icons {
+		a {
+			&:hover {
+				color: $color_2;
+			}
+		}
+	}
+	#toggler {
+		display: none;
+	}
+	.fa-bars {
+		font-size: 2.5rem;
+		color: $color_4;
+		border-radius: 0.5rem;
+		padding: 0.5rem 1.5rem;
+	}
+}

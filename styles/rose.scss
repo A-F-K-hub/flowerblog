@@ -1,0 +1,22 @@
+@import './components/themes';
+@import './components/layout';
+@import './components/navbar';
+@import './components/container';
+@import './components/hero';
+@import './components/card';
+
+.card1 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/rose2.jpg);
+}
+
+.card2 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/rose3.jpg);
+}
+
+.card3 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/rose4.jpg);
+}
+
+.card4 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/rose5.jpg);
+}

@@ -1,0 +1,27 @@
+@import './components/themes';
+@import './components/layout';
+@import './components/navbar';
+@import './components/container';
+@import './components/hero';
+@import './components/card';
+
+.card1 {
+	background-image: url(../images/dahlia1.jpg);
+}
+
+.card2 {
+	background-image: url(../images/dahlia2.jpg);
+}
+
+.card3 {
+	background-image: url(../images/dahlia3.jpg);
+}
+
+.card4 {
+	background-image: url(../images/dahlia4.jpg);
+}
+
+.h5 {
+	color: $color_4;
+	text-shadow: 0 0 5px #999;
+}

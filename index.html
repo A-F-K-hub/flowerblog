@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e59493c29e.js" crossorigin="anonymous"></script>    
+    <title>Amanda's Garden</title>
+    <link rel="stylesheet" href="./styles/styles.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="fas fa-bars" id="mobile-menu"></div>
+        <a href="#" class="logo">Gardens<span>.</span></a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="flowers">flowers</a>
+            <a href="pages/favourites.html">saved</a>
+            <a href="#home">review</a>
+        </nav>
+<!--banner-->
+    </header>
+    <section class="home">
+        <div class="content">
+            <h3>Gardens<span>.</span></h3>
+            <span>Flowers: Natures way of smiling</span>
+            <p>Welcome to our enchanting flower Garden(s), where petals, colors, and scents come together in a symphony of natural beauty! 
+                Here, we delve into the fascinating world of blooms, exploring the diverse array of flowers that grace our planet. From delicate roses to vibrant sunflowers, from exotic orchids to charming daisies, we celebrate the sheer diversity and captivating allure of nature's floral creations.
+                </p>
+            <a class="btn" id="toggler" href="https://www.netflorist.co.za/">Find out more...</a>
+        </div>
+    </section>
+<!--video-->
+    <section class="about" id="about">
+        <h1 class="heading"> <span> about </span> us </h1>
+        <div class="row">
+            <div class="video-container">
+                <video src="./images/video(2).mp4" loop autoplay muted></video>
+                <h3>This Season's Bouquet</h3>
+            </div>
+            <div class="content">
+                <h3>More about this blog</h3>
+                <p>
+                    Join me on a journey through lush gardens, fragrant meadows, and far-flung corners of the world where rare and extraordinary flowers bloom. Immerse yourself in captivating tales of botanical history, as we uncover the cultural significance and symbolism attached to different flowers across various civilizations and traditions.               
+                    Our dedicated team of flower enthusiasts and experts will guide you through the art of flower cultivation, offering practical tips, insightful techniques, and gardening advice to help you nurture your own private haven of blossoms. Whether you have a sprawling garden, a cozy balcony, or just a windowsill yearning for some floral magic, we've got you covered.
+                    But our love for flowers doesn't end with gardening alone. We also explore the myriad ways in which flowers enrich our lives beyond their petals. From floral arrangements and stunning bouquets that brighten up our spaces to the soothing properties of essential oils derived from blossoms, we delve into the versatile uses and therapeutic benefits that flowers offer.
+                    As we embark on this journey together, we encourage you to share your own experiences, photos, and stories. Let's create a vibrant community that thrives on our shared passion for all things floral. Whether you seek inspiration, knowledge, or simply a moment of tranquility, this flower blog is here to awaken your senses and ignite your love affair with nature's most enchanting creations.   
+                    So, let the fragrance of our words transport you to a world of petals and blooms. Come, explore, and discover the wonders that await you in my captivating flower blog. Let the blossoming adventure begin!</p>
+                <a href="https://petalandpost.co.za/" class="btn">learn more</a>
+            </div>
+        </div>
+    </section>
+<!--Flowers-->
+    <section class="products" id="flowers">
+        <h1 class="heading"> Trending <span>Flowers</span> </h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="images/frangipani2.jpg" alt="Image of frangipani"> 
+                </div>
+                <div class="content">
+                    <h3> Frangipani </h3>
+                </div>
+                <a href="pages/frangipani.html" class="btn">Read more...</a>
+                <button class="btn" type="button" id="favourites">Add to Favourites</button>
+                <div class="btn2">
+                    <button id="btn" class="btn2"><i class="fas fa-heart"></i></button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/tulip.jpeg" alt="Image of Tulip">      
+                </div>
+                <div class="content">
+                    <h3> Tulip </h3>
+                </div>
+                <a class="btn" href="pages/tulip.html">Read More...</a>
+                <button class="btn" type="button" id="favourites">Add to Favourites</button>
+                <div class="btns">
+                    <button  id="btn2" class="btn2"><i class="fas fa-heart"></i></button>
+                </div>            
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/rose.jpg" alt="Image of Rose">          
+                </div>
+                <div class="content">
+                    <h3> Rose </h3>
+                </div>
+                <a class="btn" href="pages/rose.html">Read More...</a>
+                <button class="btn" type="button" id="favourites">Add to Favourites</button>
+                <div class="btns">
+                    <button  id="btn3" class="btn2"><i class="fas fa-heart"></i></button>
+                </div>            
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/orchid.jpg" alt="Image of Orchid">          
+                </div>
+                <div class="content">
+                    <h3> Orchid </h3>
+                </div>
+                <a class="btn" href="pages/orchid.html">Read More...</a>
+                <button class="btn" type="button" id="favourites">Add to Favourites</button>
+                <div class="btns">
+                    <button  id="btn4" class="btn2"><i class="fas fa-heart"></i></button>
+                </div>            
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/lily.jpg" alt="Image of Lily">          
+                </div>
+                <div class="content">
+                    <h3> Lily </h3>
+                </div>
+                <a class="btn" href="pages/lily.html">Read More...</a>
+                <button class="btn" type="button" id="favourites">Add to Favourites</button>
+                <div class="btns">
+                    <button  id="btn5" class="btn2"><i class="fas fa-heart"></i></button>
+                </div>            
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/dahlia.jpg" alt="Image of Dahlia">      
+                </div>
+                <div class="content">
+                    <h3> Dahlia </h3>
+                </div>
+                <a class="btn" href="pages/dahlia.html">Read More...</a>
+                <button class="btn" type="button" id="favourites">Add to Favourites</button>
+                <div class="btns">
+                    <button  id="btn6" class="btn2"><i class="fas fa-heart"></i></button>
+                </div>            
+            </div>
+        </div>
+    </section>
+    <!--Table-->
+<div>
+  <table>
+    <thead>
+      <tr>
+        <th>Plant</th>
+        <th>Indoor/Outdoor Plant</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Frangipani</td>
+        <td>Outdoor</td>
+      </tr>
+      <tr>
+        <td>Tulip</td>
+        <td>Outdoor</td>
+      </tr>
+      <tr>
+        <td>Lily</td>
+        <td>Indoor/Outdoor</td>
+      </tr>
+      <tr>
+        <td>Rose</td>
+        <td>Outdoor</td>
+      </tr>
+      <tr>
+        <td>Dahlia</td>
+        <td>Outdoor</td>
+      </tr>
+      <tr>
+        <td>Orchid</td>
+        <td>Indoor</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<!--Drop down Events Menu-->
+<section class="shops">
+    <h1 class="heading">List of Florists</h1>
+        <ul class="event">
+            <li><a href="https://www.donnasflowers.co.za/">Donna's Flowers</a></li>
+            <li><a href="https://enhleflora.co.za/">Enhle Flora</a></li>
+            <li><a href="https://frondandfiligree.co.za/">Frond & Filigree</a></li>
+            <li><a href="https://www.pattingtons.co.za/">Pattingtons Flowers & Gifts</a></li>
+            <li><a href="https://www.melroseflowermarket.co.za/">Melrose Arch Flower Market</a></li>
+            <li><a href="https://ferndaleflowers.co.za/">Ferndale Flowers</a></li>
+    </ul>
+</section>
+<!--Reviews-->
+<section class="testimonials" >
+    <h1 class="heading">What People Have to Say</h1>
+    <div class="row">
+        <div class="column">
+            <img src="images/download2.jpeg" alt="Image of Lyne" class="img-col">
+            <div>
+                <p>This flower blog is a delightful gem! It combines stunning visuals 
+                    with informative content that's both engaging and easy to follow. Whether you're a seasoned gardener or a flower lover, 
+                    it's a must-visit for inspiration and knowledge.</p>
+                    <h3>Lyne Alexander</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+        <div class="column">
+            <img src="images/image1.jpeg" alt="Image of Skye" class="img-col">
+            <div>
+                <p>The flower blog is a captivating haven for flower enthusiasts. 
+                    Its captivating imagery and well-crafted, informative content make it a 
+                    go-to resource for all things floral. Whether you're a seasoned gardener 
+                    or simply admire the beauty of flowers, this blog offers inspiration and 
+                    valuable insights that will keep you coming back for more.</p>
+                    <h3>Skye Khumalo</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Comment-->
+<section>
+    <div class="container" id="comments">
+        <h1 class="heading">Comment Form</h1>
+        <form id="commentForm">
+          <label for="comment">Leave a comment:</label>
+          <textarea id="comment" rows="4" cols="50"></textarea>
+          <button type="button" class="btn" onclick="addComment()">Submit Comment</button>
+        </form>
+        <div id="comments"></div>
+      </div>
+</section>
+<!--Contact-->
+
+<section class="contact">
+    <h1 class="heading"> Contact <span>Us</span></h1>
+    <div class="row">
+        <form>
+            <input type="text" placeholder="Name" class="box">
+            <input type="email" placeholder="Email" class="box">
+            <input type="number" placeholder="Number" class="box">
+            <textarea name="message" cols="30" rows="10" placeholder="Message" class="box"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+            <h2>Would you like to signup for our newsletter?</h2>
+            <label>
+                <input type="radio" name="color" value="#f2a20d"> Yes
+            </label><br>        
+            <label>
+                <input type="radio" name="color" value="#333"> No
+            </label><br>
+        </form>
+        <div class="image">
+            <img src="./images/tulip.jpeg" alt="Image of Tulip">
+        </div>   
+    </div>
+</section>
+    <script src="main.js" defer></script>
+</body>
+</html>
